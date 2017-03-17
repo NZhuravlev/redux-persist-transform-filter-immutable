@@ -10,7 +10,7 @@ Filter transformator for redux-persist supporting immutable.js
 ## Usage
 
 ```js
-import createFilter from 'redux-persist-transform-filter-immutable';
+import createFilter from 'redux-persist-transform-filter';
 
 // you want to store only a subset of your state of reducer one
 const saveSubsetFilter = createFilter(
